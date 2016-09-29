@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+    provider: heroku
+      api_key:
+        secure: qM+/0skaPwfCCdeSZPo3+p+yp5+CPvMilpki5wyRTA9poP2Vh2s2h2t28sl6n5GNA9kMpLaG/lUVg3h+P08DM5yTKYwa8HIQtkPAKxqbYJ2gjfjTByEsGayArn6HQr7m55OS0x3kE15P5zurOQq2mURuw6GcpEwVfCN5zpdjSSxPuvWQPT5ibeEeIycsl9Scd0sz8ZSESXmFCrRGCFDskDT/nqbxl013AjN/EF5d7ujZWw4uyiPV0KivUxt+qpE3j1hcElb6dNWJ1rdVT1WIW/E7yBBPPMLIZvcd38UFAJvP8YtWlfRfvf4aX8JmHMEPeyMxW1ZMh2s/f7HoHzZB1SciBMPT7V61cvJwCUK8dkzdIwXlWoVWSaiX3BCsUnGLkQIhrfCQSU5hq5HvKZxgFMh/IJWXpFisIHfGDzHMvnd5lmgDFZBb9RY9AjeY1LHlPhKXzZMbtDwtThKTWzyiho7oVWW7GSP5URDYQEaUA10WRf/5R18kMJ4oGs2xnpUcdhuTMghrCyY8WGEBFnXJoTmoHRNyvIRdOzD3qvr5WXWp1mv0KNO76j4AkMB0gpLNPbF9xlxLJ8dJ4n6TMcLajiJh/kFFR9dgVJT7MdIZCQSCH0OyRsp6TO1qcFMf/+2Hn8DXroHmskGvZU6SzJGJmWW0yYh5ujgo5ArqZVbnoyU=
+      app: gentle-spire-74692
+      on:
+        repo: tw3080/mongo-shopping-list
