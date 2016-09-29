@@ -8,3 +8,9 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+provider: heroku
+  api_key:
+    secure: f6d82e98-b08f-4bae-b02f-23dd8655b1aa
+  app: gentle-spire-74692
+  on:
+    repo: tw3080/mongo-shopping-list
